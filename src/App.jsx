@@ -21,7 +21,7 @@ import Users from "./pages/users/Users";
 import AddUser from "./pages/users/AddUser";
 import ResetPassword from "./pages/users/ResetPassword";
 import ActivateDeactivate from "./pages/users/ActivateDeactivate";
-import AssignUser from "./pages/uers/AssignUser";
+import AssignUser from "./pages/users/AssignUser";
 import UserActivity from "./pages/users/UserActivity";
 import LoginAttempts from "./pages/users/LoginAttempts";
 import UserList from "./pages/users/UserList";
