@@ -63,19 +63,19 @@ import AddApiKeys from "./pages/integration/AddApiKeys";
 import TestConnections from "./pages/integration/TestConnections";
 import MonitorStatus from "./pages/integration/MonitorStatus";
 
-import ReportingAnalytics from "./pages/Reports/ReportingAnalytics.jsx";
-import DailyDisbursementReport from "./pages/Reports/DailyDisbursementReport.jsx";
-import BranchPerformanceReport from "./pages/Reports/BranchPerformanceReport.jsx";
-import LoanApprovalRejectionReport from "./pages/Reports/LoanApprovalRejectionReport.jsx";
-import NpaReport from "./pages/Reports/NpaReport.jsx";  // FIXED
-import RevenueReport from "./pages/Reports/RevenueReport.jsx";
-import UserActivityReport from "./pages/Reports/UserActivityReport.jsx";
+import ReportingAnalytics from "./pages/Reports/ReportingAnalytics";
+import DailyDisbursementReport from "./pages/Reports/DailyDisbursementReport";
+import BranchPerformanceReport from "./pages/Reports/BranchPerformanceReport";
+import LoanApprovalRejectionReport from "./pages/Reports/LoanApprovalRejectionReport";
+import NpaReport from "./pages/Reports/NpaReport";  // FIXED
+import RevenueReport from "./pages/Reports/RevenueReport";
+import UserActivityReport from "./pages/Reports/UserActivityReport";
 
 
-import AuditMain from "./pages/audit/AuditMain.jsx";
+import AuditMain from "./pages/audit/AuditMain";
 import ViewUserActions from "./pages/audit/ViewUserActions";
-import TrackEditsDeletes from "./pages/audit/TrackEditsDeletes;.jsx";
-import ActivityTimeline from "./pages/audit/ActivityTimeline;.jsx";
+import TrackEditsDeletes from "./pages/audit/TrackEditsDeletes";
+import ActivityTimeline from "./pages/audit/ActivityTimeline";
 import TrackIpLogs from "./pages/audit/TrackIpLogs";
 import BranchDataMonitor from "./pages/audit/BranchDataMonitor";
 
