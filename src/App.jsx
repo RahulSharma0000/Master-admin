@@ -74,10 +74,11 @@ import UserActivityReport from "./pages/Reports/UserActivityReport.jsx";
 
 import AuditMain from "./pages/audit/AuditMain.jsx";
 import ViewUserActions from "./pages/audit/ViewUserActions";
-import TrackEditsDeletes from "./pages/audit/TrackEditsDeletes";
-import ActivityTimeline from "./pages/audit/ActivityTimeline";
+import TrackEditsDeletes from "./pages/audit/TrackEditsDeletes;.jsx";
+import ActivityTimeline from "./pages/audit/ActivityTimeline;.jsx";
 import TrackIpLogs from "./pages/audit/TrackIpLogs";
 import BranchDataMonitor from "./pages/audit/BranchDataMonitor";
+
 import ProfilePage from "./components/ProfilePage";
 
 
@@ -167,9 +168,9 @@ function App() {
           <Route path="/reports/user-activity-report" element={<UserActivityReport/>} />
       
           <Route path="/audit" element={<AuditMain />} />
-          <Route path="/audit/user-actions" element={<ViewUserActions />} />
-          <Route path="/audit/edits-deletes" element={<TrackEditsDeletes />} />
-          <Route path="/audit/timestamps" element={<ActivityTimeline />} />
+          <Route path="/audit/user-actions" element={<ViewUserActions/>} />
+          <Route path="/audit/edits-deletes" element={<TrackEditsDeletes/>} />
+          <Route path="/audit/timestamps" element={<ActivityTimeline/>} />
           <Route path="/audit/ip-logs" element={<TrackIpLogs />} />
           <Route path="/audit/branch-data" element={<BranchDataMonitor />} />
           
