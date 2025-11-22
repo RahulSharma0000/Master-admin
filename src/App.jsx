@@ -62,13 +62,16 @@ import ManageCrm from "./pages/integration/ManageCrm";
 import AddApiKeys from "./pages/integration/AddApiKeys";
 import TestConnections from "./pages/integration/TestConnections";
 import MonitorStatus from "./pages/integration/MonitorStatus";
-import ReportingAnalytics from "./pages/reports/ReportingAnalytics";
-import DailyDisbursementReport from "./pages/reports/DailyDisbursementReport"
-import BranchPerformanceReport from "./pages/reports/BranchPerformanceReport"
-import LoanApprovalRejectionReport from "./pages/reports/LoanApprovalRejectionReport"
-import NpaReport from "./pages/reports/NPAReport";
-import RevenueReport from "./pages/reports/RevenueReport";
-import UserActivityReport from "./pages/reports/UserActivityReport";
+
+import ReportingAnalytics from "./pages/reports/ReportingAnalytics.jsx";
+import DailyDisbursementReport from "./pages/reports/DailyDisbursementReport.jsx";
+import BranchPerformanceReport from "./pages/reports/BranchPerformanceReport.jsx";
+import LoanApprovalRejectionReport from "./pages/reports/LoanApprovalRejectionReport.jsx";
+import NpaReport from "./pages/reports/NpaReport.jsx";  // FIXED
+import RevenueReport from "./pages/reports/RevenueReport.jsx";
+import UserActivityReport from "./pages/reports/UserActivityReport.jsx";
+
+
 import AuditMain from "./pages/audit/AuditMain";
 import ViewUserActions from "./pages/audit/ViewUserActions";
 import TrackEditsDeletes from "./pages/audit/TrackEditsDeletes";
