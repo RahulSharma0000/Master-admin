@@ -71,11 +71,11 @@ import RevenueReport from "./pages/reports/RevenueReport";
 import UserActivityReport from "./pages/reports/UserActivityReport";
 import AuditMain from "./pages/audit/AuditMain";
 import ViewUserActions from "./pages/audit/ViewUserActions";
-import TrackEditsDeletes from "./pages/audit/TrackEditsDeletes;";
-import ActivityTimeline from "./pages/audit/ActivityTimeline;";
-import TrackIpLogs from "./pages/audit/TrackIpLogs;";
+import TrackEditsDeletes from "./pages/audit/TrackEditsDeletes";
+import ActivityTimeline from "./pages/audit/ActivityTimeline";
+import TrackIpLogs from "./pages/audit/TrackIpLogs";
 import BranchDataMonitor from "./pages/audit/BranchDataMonitor";
-import ProfilePage from "./components/ProfilePage;";
+import ProfilePage from "./components/ProfilePage";
 
 
 function App() {
@@ -164,7 +164,6 @@ function App() {
           <Route path="/reports/user-activity-report" element={<UserActivityReport/>} />
       
           <Route path="/audit" element={<AuditMain />} />
-          <Route path="/audit/user-actions" element={<ViewUserActions />} />
           <Route path="/audit/user-actions" element={<ViewUserActions />} />
           <Route path="/audit/edits-deletes" element={<TrackEditsDeletes />} />
           <Route path="/audit/timestamps" element={<ActivityTimeline />} />
