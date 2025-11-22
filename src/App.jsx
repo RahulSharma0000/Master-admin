@@ -63,7 +63,7 @@ import AddApiKeys from "./pages/integration/AddApiKeys";
 import TestConnections from "./pages/integration/TestConnections";
 import MonitorStatus from "./pages/integration/MonitorStatus";
 
-import ReportingAnalytics from "./pages/eports/ReportingAnalytics.jsx";
+import ReportingAnalytics from "./pages/Reports/ReportingAnalytics.jsx";
 import DailyDisbursementReport from "./pages/Reports/DailyDisbursementReport.jsx";
 import BranchPerformanceReport from "./pages/Reports/BranchPerformanceReport.jsx";
 import LoanApprovalRejectionReport from "./pages/Reports/LoanApprovalRejectionReport.jsx";
@@ -72,7 +72,7 @@ import RevenueReport from "./pages/Reports/RevenueReport.jsx";
 import UserActivityReport from "./pages/Reports/UserActivityReport.jsx";
 
 
-import AuditMain from "./pages/audit/AuditMain";
+import AuditMain from "./pages/audit/AuditMain.jsx";
 import ViewUserActions from "./pages/audit/ViewUserActions";
 import TrackEditsDeletes from "./pages/audit/TrackEditsDeletes";
 import ActivityTimeline from "./pages/audit/ActivityTimeline";
