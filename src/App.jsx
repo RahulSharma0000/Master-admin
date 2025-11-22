@@ -63,13 +63,13 @@ import AddApiKeys from "./pages/integration/AddApiKeys";
 import TestConnections from "./pages/integration/TestConnections";
 import MonitorStatus from "./pages/integration/MonitorStatus";
 
-import ReportingAnalytics from "./pages/reports/ReportingAnalytics.jsx";
-import DailyDisbursementReport from "./pages/reports/DailyDisbursementReport.jsx";
-import BranchPerformanceReport from "./pages/reports/BranchPerformanceReport.jsx";
-import LoanApprovalRejectionReport from "./pages/reports/LoanApprovalRejectionReport.jsx";
-import NpaReport from "./pages/reports/NpaReport.jsx";  // FIXED
-import RevenueReport from "./pages/reports/RevenueReport.jsx";
-import UserActivityReport from "./pages/reports/UserActivityReport.jsx";
+import ReportingAnalytics from "./pages/eports/ReportingAnalytics.jsx";
+import DailyDisbursementReport from "./pages/Reports/DailyDisbursementReport.jsx";
+import BranchPerformanceReport from "./pages/Reports/BranchPerformanceReport.jsx";
+import LoanApprovalRejectionReport from "./pages/Reports/LoanApprovalRejectionReport.jsx";
+import NpaReport from "./pages/Reports/NpaReport.jsx";  // FIXED
+import RevenueReport from "./pages/Reports/RevenueReport.jsx";
+import UserActivityReport from "./pages/Reports/UserActivityReport.jsx";
 
 
 import AuditMain from "./pages/audit/AuditMain";
